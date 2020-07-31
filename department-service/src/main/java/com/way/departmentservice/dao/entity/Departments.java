@@ -2,6 +2,7 @@ package com.way.departmentservice.dao.entity;
 
 import lombok.Data;
 
+import javax.persistence.Id;
 import java.io.Serializable;
 
 /**
@@ -9,10 +10,9 @@ import java.io.Serializable;
  * @author 
  */
 @Data
-public class Departments implements Serializable {
+public class Departments {
+    @Id
     private String deptNo;
 
     private String deptName;
-
-    private static final long serialVersionUID = 1L;
 }

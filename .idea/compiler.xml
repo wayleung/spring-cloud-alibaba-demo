@@ -7,14 +7,14 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="employee-service" />
-        <module name="teacher-service" />
         <module name="department-service" />
-        <module name="student-service" />
         <module name="spring-cloud-alibaba-demo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="demo" target="1.8" />
+      <module name="student-service" target="1.8" />
+      <module name="teacher-service" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

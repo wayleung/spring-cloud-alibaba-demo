@@ -5,9 +5,11 @@ import com.way.employeeservice.param.EmployeeByIdParam;
 import com.way.employeeservice.param.PageParam;
 import com.way.employeeservice.service.EmployeeService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.ComponentScan;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+import tk.mybatis.spring.annotation.MapperScan;
 
 import java.util.List;
 
@@ -18,6 +20,7 @@ import java.util.List;
  */
 @RestController
 @RequestMapping("/employee-msc")
+@MapperScan("com.way.employeeservice.dao")
 public class EmployeeController {
     @Autowired
     private EmployeeService employeeService;

@@ -5,9 +5,11 @@ import com.way.departmentservice.param.DepartmentByIdParam;
 import com.way.departmentservice.param.PageParam;
 import com.way.departmentservice.service.DepartmentService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.ComponentScan;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+import tk.mybatis.spring.annotation.MapperScan;
 
 import java.util.List;
 
@@ -18,6 +20,7 @@ import java.util.List;
  */
 @RestController
 @RequestMapping("/department-msc")
+@MapperScan("com.way.departmentservice.dao")
 public class DepartmentController {
     @Autowired
     private DepartmentService departmentService;

@@ -1,5 +1,8 @@
 package com.way.employeeservice.dao.entity;
 
+import lombok.Data;
+
+import javax.persistence.Id;
 import java.io.Serializable;
 import java.util.Date;
 
@@ -8,7 +11,9 @@ import java.util.Date;
  * @description
  * @date 2020-07-31
  */
-public class Employees implements Serializable {
+@Data
+public class Employees {
+    @Id
     private Integer empNo;
 
     private Date birthDate;
@@ -21,5 +26,4 @@ public class Employees implements Serializable {
 
     private Date hireDate;
 
-    private static final long serialVersionUID = 1L;
 }
