@@ -2,17 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d15ac713-91ab-44f3-80ec-eb10c48657a2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/employee-service/src/main/java/com/way/employeeservice/service/client/DepartmentClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/employee-service/src/main/java/com/way/employeeservice/service/entity/Departments.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/employee-service/src/main/java/com/way/employeeservice/service/param/DepartmentByIdParam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee-service/src/main/java/com/way/employeeservice/service/callback/DepartmentClientCallback.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/department-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/department-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/department-service/src/main/java/com/way/departmentservice/DepartmentServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/department-service/src/main/java/com/way/departmentservice/DepartmentServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/department-service/src/main/java/com/way/departmentservice/controller/DepartmentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/department-service/src/main/java/com/way/departmentservice/controller/DepartmentController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/department-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/department-service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/employee-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/employee-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/employee-service/src/main/java/com/way/employeeservice/EmployeeServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/employee-service/src/main/java/com/way/employeeservice/EmployeeServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/employee-service/src/main/java/com/way/employeeservice/controller/EmployeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/employee-service/src/main/java/com/way/employeeservice/controller/EmployeeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/employee-service/src/main/java/com/way/employeeservice/service/client/DepartmentClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/employee-service/src/main/java/com/way/employeeservice/service/client/DepartmentClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/employee-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/employee-service/src/main/resources/application.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -73,29 +66,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/employee-service/src/main/java/com/way/employeeservice/EmployeeServiceApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="12" selection-start-line="12" selection-end-line="12" selection-end-column="19" />
+            <state relative-caret-position="59">
+              <caret line="19" column="17" lean-forward="true" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
               <folding>
-                <element signature="e#510#511#0" expanded="true" />
-                <element signature="e#551#552#0" expanded="true" />
+                <element signature="e#760#761#0" expanded="true" />
+                <element signature="e#801#802#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/department-service/src/main/java/com/way/departmentservice/DepartmentServiceApplication.java">
+        <entry file="file://$PROJECT_DIR$/department-service/src/main/java/com/way/departmentservice/dao/entity/Departments.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="269">
-              <caret line="21" column="9" lean-forward="true" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#517#518#0" expanded="true" />
-                <element signature="e#558#559#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="110">
+              <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -103,20 +91,23 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/employee-service/src/main/java/com/way/employeeservice/controller/EmployeeController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="67" column="40" lean-forward="true" selection-start-line="67" selection-start-column="40" selection-end-line="67" selection-end-column="40" />
+            <state relative-caret-position="191">
+              <caret line="63" column="5" lean-forward="true" selection-start-line="63" selection-start-column="5" selection-end-line="63" selection-end-column="5" />
               <folding>
-                <element signature="e#2373#2381#0" expanded="true" />
+                <element signature="e#2295#2303#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/student-service/src/main/java/com/way/studentservice/controller/ConfigController.java">
+        <entry file="file://$PROJECT_DIR$/employee-service/src/main/java/com/way/employeeservice/dao/entity/Employees.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+            <state relative-caret-position="247">
+              <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -124,17 +115,72 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/student-service/src/main/java/com/way/studentservice/controller/StudentController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
+            <state relative-caret-position="356">
+              <caret line="34" column="27" selection-start-line="34" selection-start-column="27" selection-end-line="34" selection-end-column="27" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/teacher-service/src/main/java/com/way/teacherservice/service/fallback/StudentClientFallback.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="134">
+              <caret line="26" selection-start-line="26" selection-end-line="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/employee-service/src/main/java/com/way/employeeservice/service/client/DepartmentClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="279">
+              <caret line="13" column="76" selection-start-line="13" selection-start-column="76" selection-end-line="13" selection-end-column="76" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/teacher-service/src/main/java/com/way/teacherservice/TeacherServiceApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/teacher-service/src/main/java/com/way/teacherservice/service/TeacherServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/teacher-service/src/main/java/com/way/teacherservice/controller/TeacherController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="158">
-              <caret line="33" column="17" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="17" />
+            <state relative-caret-position="-20">
+              <caret line="27" column="11" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="11" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/teacher-service/src/main/java/com/way/teacherservice/service/TeacherService.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/teacher-service/src/main/resources/bootstrap.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="580">
+              <caret line="39" column="19" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -142,20 +188,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/teacher-service/src/main/java/com/way/teacherservice/service/client/StudentClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="164">
-              <caret line="19" column="30" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="30" />
+            <state relative-caret-position="46">
+              <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/employee-service/src/main/java/com/way/employeeservice/service/client/DepartmentClient.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/employee-service/src/main/java/com/way/employeeservice/service/callback/DepartmentClientCallback.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="13" column="24" lean-forward="true" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="95">
+              <caret line="15" column="67" lean-forward="true" selection-start-line="15" selection-start-column="67" selection-end-line="15" selection-end-column="67" />
             </state>
           </provider>
         </entry>
@@ -173,36 +219,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/employee-service/src/main/java/com/way/employeeservice/service/param/DepartmentByIdParam.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/employee-service/src/main/java/com/way/employeeservice/service/entity/Departments.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/student-service/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-721">
-              <caret line="139" column="56" selection-start-line="139" selection-start-column="51" selection-end-line="139" selection-end-column="56" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/employee-service/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
+            <state relative-caret-position="179">
+              <caret line="47" column="41" lean-forward="true" selection-start-line="47" selection-start-column="41" selection-end-line="47" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -210,61 +230,27 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/department-service/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="42" selection-start-column="24" selection-end-column="42" />
+            <state relative-caret-position="247">
+              <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/student-service/src/main/resources/bootstrap.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="103">
-              <caret line="5" selection-start-line="5" selection-end-line="7" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/department-service/pom.xml">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1056">
-              <caret line="48" column="49" selection-start-line="48" selection-start-column="49" selection-end-line="48" selection-end-column="49" />
+            <state relative-caret-position="154">
+              <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/employee-service/pom.xml">
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+        <entry file="file://$PROJECT_DIR$/teacher-service/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="163">
-              <caret line="50" column="21" selection-start-line="50" selection-start-column="21" selection-end-line="50" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/department-service/src/main/java/com/way/departmentservice/controller/DepartmentController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="23" column="44" selection-start-line="23" selection-start-column="44" selection-end-line="23" selection-end-column="44" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/department-service/src/main/java/com/way/departmentservice/service/DepartmentService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="236">
-              <caret line="16" column="61" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="61" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="132">
+              <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -303,6 +289,7 @@
       <find>redis</find>
       <find>alibaba</find>
       <find>open</find>
+      <find>loadb</find>
     </findStrings>
     <replaceStrings>
       <replace>Department</replace>
@@ -343,15 +330,16 @@
         <option value="$PROJECT_DIR$/department-service/src/main/java/com/way/departmentservice/controller/DepartmentController.java" />
         <option value="$PROJECT_DIR$/employee-service/pom.xml" />
         <option value="$PROJECT_DIR$/department-service/pom.xml" />
-        <option value="$PROJECT_DIR$/department-service/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/employee-service/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/employee-service/src/main/java/com/way/employeeservice/service/entity/Departments.java" />
         <option value="$PROJECT_DIR$/employee-service/src/main/java/com/way/employeeservice/service/param/DepartmentByIdParam.java" />
         <option value="$PROJECT_DIR$/employee-service/src/main/java/com/way/employeeservice/service/DepartmentService.java" />
+        <option value="$PROJECT_DIR$/department-service/src/main/java/com/way/departmentservice/DepartmentServiceApplication.java" />
+        <option value="$PROJECT_DIR$/employee-service/src/main/java/com/way/employeeservice/service/callback/DepartmentClientCallback.java" />
+        <option value="$PROJECT_DIR$/employee-service/src/main/java/com/way/employeeservice/service/client/DepartmentClient.java" />
+        <option value="$PROJECT_DIR$/employee-service/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/department-service/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/employee-service/src/main/java/com/way/employeeservice/controller/EmployeeController.java" />
         <option value="$PROJECT_DIR$/employee-service/src/main/java/com/way/employeeservice/EmployeeServiceApplication.java" />
-        <option value="$PROJECT_DIR$/department-service/src/main/java/com/way/departmentservice/DepartmentServiceApplication.java" />
-        <option value="$PROJECT_DIR$/employee-service/src/main/java/com/way/employeeservice/service/client/DepartmentClient.java" />
       </list>
     </option>
   </component>
@@ -378,8 +366,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="900" />
+    <option name="height" value="877" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -630,6 +619,19 @@
               <item name="employee-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="way" type="462c0819:PsiDirectoryNode" />
+              <item name="employeeservice" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-alibaba-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-alibaba-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="employee-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -839,7 +841,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
-    <property name="MyBatisLogPluginindexNum" value="29" />
+    <property name="MyBatisLogPluginindexNum" value="35" />
     <property name="MyBatisLogPluginparameters" value="Parameters:" />
     <property name="MyBatisLogPluginpreparing" value="Preparing:" />
     <property name="MyBatisLogPluginrunning" value="true" />
@@ -867,11 +869,11 @@
       <recent name="com.way" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.way.employeeservice.service.callback" />
       <recent name="com.way.employeeservice.service.param" />
       <recent name="com.way.employeeservice.service.entity" />
       <recent name="com.way.departmentservice.controller" />
       <recent name="com.way.departmentservice.param" />
-      <recent name="com.way.departmentservice.dao" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.way.employeeservice.param" />
@@ -935,7 +937,7 @@
       <workItem from="1596100952509" duration="1548000" />
       <workItem from="1596156894591" duration="2033000" />
       <workItem from="1596164067122" duration="105000" />
-      <workItem from="1596164231439" duration="14704000" />
+      <workItem from="1596164231439" duration="19506000" />
     </task>
     <task id="LOCAL-00001" summary="project init">
       <created>1596162798124</created>
@@ -958,17 +960,24 @@
       <option name="project" value="LOCAL" />
       <updated>1596178674254</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="添加ncos注册服务发现 添加 restTemplate 和 ribbon+open">
+      <created>1596186364117</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1596186364117</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28849000" />
+    <option name="totallyTimeSpent" value="33651000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49913043" visible="true" weight="0.26432666" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49913043" weight="0.26432666" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Learn" order="3" weight="0.3295129" />
@@ -983,7 +992,7 @@
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" />
       <window_info anchor="bottom" id="Run" order="3" weight="0.46506023" />
-      <window_info active="true" anchor="bottom" id="Debug" order="4" visible="true" weight="0.3048193" />
+      <window_info active="true" anchor="bottom" id="Debug" order="4" visible="true" weight="0.49638554" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" />
@@ -1018,7 +1027,7 @@
       <window_info anchor="right" id="Bean Validation" order="15" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49913043" visible="true" weight="0.26432666" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49913043" visible="true" weight="0.26432666" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Learn" order="3" weight="0.3295129" />
@@ -1033,7 +1042,7 @@
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" />
       <window_info anchor="bottom" id="Run" order="3" weight="0.46506023" />
-      <window_info anchor="bottom" id="Debug" order="4" visible="true" weight="0.17228916" />
+      <window_info active="true" anchor="bottom" id="Debug" order="4" visible="true" weight="0.49638554" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" />
@@ -1075,27 +1084,14 @@
     <MESSAGE value="project init" />
     <MESSAGE value="department employee service dao controller" />
     <MESSAGE value="普通单表应用" />
-    <option name="LAST_COMMIT_MESSAGE" value="普通单表应用" />
+    <MESSAGE value="添加ncos注册服务发现 添加 restTemplate 和 ribbon+open" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加ncos注册服务发现 添加 restTemplate 和 ribbon+open" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/employee-service/src/main/java/com/way/employeeservice/seata/AccountController.java" />
-    <entry file="file://$PROJECT_DIR$/employee-service/src/main/java/com/way/employeeservice/seata/BusinessConfiguration.java" />
-    <entry file="file://$PROJECT_DIR$/employee-service/src/main/java/com/way/employeeservice/seata/DatabaseConfiguration.java" />
-    <entry file="file://$PROJECT_DIR$/employee-service/src/main/java/com/way/employeeservice/seata/HomeController.java" />
-    <entry file="file://$PROJECT_DIR$/employee-service/src/main/java/com/way/employeeservice/seata/Order.java" />
-    <entry file="file://$PROJECT_DIR$/employee-service/src/main/java/com/way/employeeservice/seata/OrderController.java" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/student-service/src/main/java/com/way/studentservice/service/StudentServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
@@ -1184,13 +1180,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/department-service/src/main/java/com/way/departmentservice/param/PageParam.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/employee-service/src/main/java/com/way/employeeservice/param/PageParam.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
@@ -1252,30 +1241,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/employee-service/src/main/java/com/way/employeeservice/dao/entity/Employees.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/department-service/src/main/java/com/way/departmentservice/dao/entity/Departments.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/teacher-service/src/main/java/com/way/teacherservice/TeacherServiceApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/department-service/src/main/java/com/way/departmentservice/controller/DepartmentController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
@@ -1283,13 +1248,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/department-service/src/main/java/com/way/departmentservice/param/DepartmentByIdParam.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="25" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -1305,13 +1263,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-721">
           <caret line="139" column="56" selection-start-line="139" selection-start-column="51" selection-end-line="139" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/department-service/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="42" selection-start-column="24" selection-end-column="42" />
         </state>
       </provider>
     </entry>
@@ -1345,34 +1296,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/student-service/src/main/java/com/way/studentservice/controller/StudentController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/teacher-service/src/main/java/com/way/teacherservice/controller/TeacherController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="33" column="17" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/teacher-service/src/main/java/com/way/teacherservice/service/client/StudentClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="19" column="30" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/employee-service/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/employee-service/pom.xml">
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
@@ -1389,6 +1312,56 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/department-service/src/main/java/com/way/departmentservice/DepartmentServiceApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#517#518#0" expanded="true" />
+            <element signature="e#558#559#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/department-service/src/main/java/com/way/departmentservice/param/PageParam.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/department-service/src/main/java/com/way/departmentservice/param/DepartmentByIdParam.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="25" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/department-service/src/main/java/com/way/departmentservice/dao/entity/Departments.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/employee-service/src/main/java/com/way/employeeservice/dao/entity/Employees.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/teacher-service/src/main/resources/bootstrap.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="580">
+          <caret line="39" column="19" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/employee-service/src/main/java/com/way/employeeservice/service/EmployeeService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="193">
@@ -1399,45 +1372,119 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/employee-service/src/main/java/com/way/employeeservice/EmployeeServiceApplication.java">
+    <entry file="file://$PROJECT_DIR$/teacher-service/src/main/java/com/way/teacherservice/TeacherServiceApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="12" selection-start-line="12" selection-end-line="12" selection-end-column="19" />
-          <folding>
-            <element signature="e#510#511#0" expanded="true" />
-            <element signature="e#551#552#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/department-service/src/main/java/com/way/departmentservice/DepartmentServiceApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="21" column="9" lean-forward="true" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+        <state relative-caret-position="264">
+          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#517#518#0" expanded="true" />
-            <element signature="e#558#559#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/employee-service/src/main/java/com/way/employeeservice/controller/EmployeeController.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="67" column="40" lean-forward="true" selection-start-line="67" selection-start-column="40" selection-end-line="67" selection-end-column="40" />
+        <state relative-caret-position="154">
+          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/teacher-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/student-service/src/main/java/com/way/studentservice/controller/StudentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="34" column="27" selection-start-line="34" selection-start-column="27" selection-end-line="34" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/teacher-service/src/main/java/com/way/teacherservice/service/TeacherService.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/teacher-service/src/main/java/com/way/teacherservice/service/TeacherServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/teacher-service/src/main/java/com/way/teacherservice/service/client/StudentClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
           <folding>
-            <element signature="e#2373#2381#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/teacher-service/src/main/java/com/way/teacherservice/service/fallback/StudentClientFallback.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/teacher-service/src/main/java/com/way/teacherservice/controller/TeacherController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-20">
+          <caret line="27" column="11" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/employee-service/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="47" column="41" lean-forward="true" selection-start-line="47" selection-start-column="41" selection-end-line="47" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/employee-service/src/main/java/com/way/employeeservice/service/callback/DepartmentClientCallback.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="15" column="67" lean-forward="true" selection-start-line="15" selection-start-column="67" selection-end-line="15" selection-end-column="67" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/employee-service/src/main/java/com/way/employeeservice/service/client/DepartmentClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="13" column="24" lean-forward="true" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+        <state relative-caret-position="279">
+          <caret line="13" column="76" selection-start-line="13" selection-start-column="76" selection-end-line="13" selection-end-column="76" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/department-service/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/employee-service/src/main/java/com/way/employeeservice/controller/EmployeeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="63" column="5" lean-forward="true" selection-start-line="63" selection-start-column="5" selection-end-line="63" selection-end-column="5" />
+          <folding>
+            <element signature="e#2295#2303#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/employee-service/src/main/java/com/way/employeeservice/EmployeeServiceApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="59">
+          <caret line="19" column="17" lean-forward="true" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+          <folding>
+            <element signature="e#760#761#0" expanded="true" />
+            <element signature="e#801#802#0" expanded="true" />
           </folding>
         </state>
       </provider>
