@@ -5,6 +5,7 @@ import com.way.departmentservice.param.DepartmentByIdParam;
 import com.way.departmentservice.param.PageParam;
 import com.way.departmentservice.service.DepartmentService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -21,6 +22,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/department-msc")
 @MapperScan("com.way.departmentservice.dao")
+@EnableDiscoveryClient
 public class DepartmentController {
     @Autowired
     private DepartmentService departmentService;
