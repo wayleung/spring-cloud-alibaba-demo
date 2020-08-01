@@ -7,6 +7,7 @@ import com.way.employeeservice.param.PageParam;
 import com.way.employeeservice.service.client.DepartmentClient;
 import com.way.employeeservice.service.EmployeeService;
 import com.way.employeeservice.service.entity.Departments;
+import com.way.employeeservice.service.hystrix.DepartmentRestHystrixService;
 import com.way.employeeservice.service.param.DepartmentByIdParam;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpEntity;
@@ -33,10 +34,10 @@ public class EmployeeController {
     private EmployeeService employeeService;
 
     @Autowired
-    private RestTemplate restTemplate;
+    private DepartmentClient departmentClient;
 
     @Autowired
-    private DepartmentClient departmentClient;
+    private DepartmentRestHystrixService departmentRestHystrixService;
 
     @RequestMapping("/getAllEmployees")
     List<Employees> getAllEmployees(@RequestBody PageParam param){
@@ -51,20 +52,16 @@ public class EmployeeController {
 
     @RequestMapping("/getAllDepartments")
     String getAllDepartments(@RequestBody JSONObject jsonObject){
-        JSONObject json = new JSONObject();
-        json.put("pageIndex", jsonObject.getInteger("pageIndex"));
-        json.put("pageSize",jsonObject.getInteger("pageSize"));
-
-        HttpHeaders headers = new HttpHeaders();
-        MediaType type = MediaType.parseMediaType("application/json; charset=UTF-8");
-        headers.setContentType(type);
-        headers.add("Accept", MediaType.APPLICATION_JSON.toString());
-        HttpEntity<String> formEntity = new HttpEntity<String>(json.toString(), headers);
-        return restTemplate.postForEntity("http://department-service/department-msc/getAllDepartments",formEntity,String.class).getBody();
+        return departmentRestHystrixService.getAllDepartments(jsonObject);
     }
+
 
     @RequestMapping("/getDepartmentById")
     Departments getDepartmentById(@RequestBody DepartmentByIdParam param){
+        /**
+         * feign熔断需要在属性文件加上feign.hystrix.enabled=true
+         *
+         */
         return departmentClient.getDepartmentById(param);
     }
 }

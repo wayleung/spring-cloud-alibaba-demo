@@ -7,8 +7,8 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="employee-service" />
-        <module name="department-service" />
         <module name="spring-cloud-alibaba-demo" />
+        <module name="department-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

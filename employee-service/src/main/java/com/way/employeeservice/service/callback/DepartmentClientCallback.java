@@ -18,8 +18,8 @@ public class DepartmentClientCallback implements DepartmentClient {
     @Override
     public Departments getDepartmentById(DepartmentByIdParam param) {
         Departments departments = new Departments();
-        departments.setDeptName("Departments服务查询失败，请稍后再试");
-        departments.setDeptNo("Departments服务查询失败，请稍后再试");
+        departments.setDeptName("feign hystrix熔断：Departments服务查询失败，请稍后再试");
+        departments.setDeptNo("feign hystrix熔断：Departments服务查询失败，请稍后再试");
         return departments;
     }
 }
