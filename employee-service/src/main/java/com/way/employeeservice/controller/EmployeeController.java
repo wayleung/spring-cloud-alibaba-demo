@@ -1,5 +1,6 @@
 package com.way.employeeservice.controller;
 
+import com.alibaba.csp.sentinel.annotation.SentinelResource;
 import com.alibaba.fastjson.JSONObject;
 import com.way.employeeservice.dao.entity.Employees;
 import com.way.employeeservice.param.EmployeeByIdParam;
@@ -40,23 +41,27 @@ public class EmployeeController {
     private DepartmentRestHystrixService departmentRestHystrixService;
 
     @RequestMapping("/getAllEmployees")
+    @SentinelResource(value = "mployee-msc/getAllEmployees")
     List<Employees> getAllEmployees(@RequestBody PageParam param){
         return employeeService.getAllEmployees(param);
     }
 
     @RequestMapping("/getEmployeeById")
+    @SentinelResource(value = "mployee-msc/getEmployeeById")
     Employees getEmployeeById(@RequestBody EmployeeByIdParam param){
         return employeeService.getEmployeeById(param);
     }
 
 
     @RequestMapping("/getAllDepartments")
+    @SentinelResource(value = "mployee-msc/getAllDepartments")
     String getAllDepartments(@RequestBody JSONObject jsonObject){
         return departmentRestHystrixService.getAllDepartments(jsonObject);
     }
 
 
     @RequestMapping("/getDepartmentById")
+    @SentinelResource(value = "mployee-msc/getDepartmentById")
     Departments getDepartmentById(@RequestBody DepartmentByIdParam param){
         /**
          * feign熔断需要在属性文件加上feign.hystrix.enabled=true

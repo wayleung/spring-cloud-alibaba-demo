@@ -1,5 +1,6 @@
 package com.way.departmentservice.controller;
 
+import com.alibaba.csp.sentinel.annotation.SentinelResource;
 import com.way.departmentservice.dao.entity.Departments;
 import com.way.departmentservice.param.DepartmentByIdParam;
 import com.way.departmentservice.param.PageParam;
@@ -28,11 +29,13 @@ public class DepartmentController {
     private DepartmentService departmentService;
 
     @RequestMapping("/getAllDepartments")
+    @SentinelResource(value = "department-msc/getAllDepartments")
     List<Departments> getAllDepartments(@RequestBody PageParam param){
         return departmentService.getAllDepartments(param);
     }
 
     @RequestMapping("/getDepartmentById")
+    @SentinelResource(value = "department-msc/getDepartmentById")
     Departments getDepartmentById(@RequestBody DepartmentByIdParam param){
         return departmentService.getDepartmentById(param);
     }
