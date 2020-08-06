@@ -2,13 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d15ac713-91ab-44f3-80ec-eb10c48657a2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/department-service/src/main/java/com/way/departmentservice/controller/vo/InfoVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/department-service/src/main/java/com/way/departmentservice/util/NetworkUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee-service/src/main/java/com/way/employeeservice/controller/vo/InfoVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee-service/src/main/java/com/way/employeeservice/util/NetworkUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/department-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/department-service/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/department-service/src/main/java/com/way/departmentservice/controller/DepartmentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/department-service/src/main/java/com/way/departmentservice/controller/DepartmentController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/department-service/src/main/resources/bootstrap.properties" beforeDir="false" afterPath="$PROJECT_DIR$/department-service/src/main/resources/bootstrap.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/employee-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/employee-service/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/employee-service/src/main/java/com/way/employeeservice/controller/EmployeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/employee-service/src/main/java/com/way/employeeservice/controller/EmployeeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/employee-service/src/main/java/com/way/employeeservice/service/callback/DepartmentClientCallback.java" beforeDir="false" afterPath="$PROJECT_DIR$/employee-service/src/main/java/com/way/employeeservice/service/callback/DepartmentClientCallback.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/employee-service/src/main/java/com/way/employeeservice/service/client/DepartmentClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/employee-service/src/main/java/com/way/employeeservice/service/client/DepartmentClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/employee-service/src/main/resources/bootstrap.properties" beforeDir="false" afterPath="$PROJECT_DIR$/employee-service/src/main/resources/bootstrap.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -72,12 +77,75 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/employee-service/src/main/java/com/way/employeeservice/controller/EmployeeController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="43" column="60" selection-start-line="43" selection-start-column="4" selection-end-line="43" selection-end-column="60" />
+            <state relative-caret-position="341">
+              <caret line="83" column="33" selection-start-line="83" selection-start-column="33" selection-end-line="83" selection-end-column="33" />
               <folding>
+                <element signature="e#1550#1566#1" expanded="true" />
                 <element signature="e#1587#1588#0" expanded="true" />
                 <element signature="e#1648#1649#0" expanded="true" />
+                <element signature="e#3321#3322#0" expanded="true" />
+                <element signature="e#3339#3340#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/employee-service/src/main/java/com/way/employeeservice/service/client/DepartmentClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="440">
+              <caret line="20" column="11" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/employee-service/src/main/java/com/way/employeeservice/service/callback/DepartmentClientCallback.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="178">
+              <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/department-service/src/main/java/com/way/departmentservice/controller/vo/InfoVo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/employee-service/src/main/java/com/way/employeeservice/controller/vo/InfoVo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/department-service/src/main/java/com/way/departmentservice/util/NetworkUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/employee-service/src/main/java/com/way/employeeservice/util/NetworkUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="554">
+              <caret line="78" column="33" selection-end-line="95" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -85,10 +153,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/department-service/src/main/java/com/way/departmentservice/controller/DepartmentController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="21" column="3" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
+            <state relative-caret-position="132">
+              <caret line="6" column="49" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#1244#1260#1" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -122,8 +190,8 @@
         <entry file="file://$PROJECT_DIR$/employee-service/pom.xml">
           <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="94">
-              <caret line="132" column="51" lean-forward="true" selection-start-line="132" selection-start-column="51" selection-end-line="132" selection-end-column="51" />
+            <state relative-caret-position="117">
+              <caret line="64" selection-start-line="64" selection-end-line="64" />
             </state>
           </provider>
         </entry>
@@ -132,26 +200,35 @@
         <entry file="file://$PROJECT_DIR$/department-service/pom.xml">
           <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="429">
-              <caret line="136" column="20" selection-start-line="136" selection-start-column="20" selection-end-line="136" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/department-service/src/main/resources/bootstrap.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+            <state relative-caret-position="180">
+              <caret line="83" column="20" selection-start-line="83" selection-start-column="20" selection-end-line="83" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/employee-service/src/main/resources/bootstrap.properties">
+        <entry file="file://$PROJECT_DIR$/department-service/src/main/resources/bootstrap.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="22">
-              <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+              <caret line="1" column="16" lean-forward="true" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/employee-service/src/main/java/com/way/employeeservice/service/hystrix/DepartmentRestHystrixService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="182">
+              <caret line="34" column="28" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/employee-service/src/main/resources/bootstrap.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="66">
+              <caret line="3" column="52" lean-forward="true" selection-start-line="3" selection-start-column="52" selection-end-line="3" selection-end-column="52" />
             </state>
           </provider>
         </entry>
@@ -174,7 +251,6 @@
       <find>de</find>
       <find>mybatis</find>
       <find>tk</find>
-      <find>page</find>
       <find>clou</find>
       <find>myb</find>
       <find>cloud</find>
@@ -184,6 +260,8 @@
       <find>loadb</find>
       <find>false</find>
       <find>null</find>
+      <find>page</find>
+      <find>pagehelper</find>
     </findStrings>
     <replaceStrings>
       <replace>Department</replace>
@@ -222,22 +300,26 @@
         <option value="$PROJECT_DIR$/employee-service/src/main/java/com/way/employeeservice/service/param/DepartmentByIdParam.java" />
         <option value="$PROJECT_DIR$/employee-service/src/main/java/com/way/employeeservice/service/DepartmentService.java" />
         <option value="$PROJECT_DIR$/department-service/src/main/java/com/way/departmentservice/DepartmentServiceApplication.java" />
-        <option value="$PROJECT_DIR$/employee-service/src/main/java/com/way/employeeservice/service/client/DepartmentClient.java" />
         <option value="$PROJECT_DIR$/employee-service/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/department-service/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/department-service/src/main/java/com/way/departmentservice/service/impl/DepartmentServiceImpl.java" />
         <option value="$PROJECT_DIR$/employee-service/src/main/java/com/way/employeeservice/service/hystrix/DepartmentServiceHystrix.java" />
         <option value="$PROJECT_DIR$/employee-service/src/main/java/com/way/employeeservice/service/hystrix/DepartmentRestHystrixService.java" />
         <option value="$PROJECT_DIR$/employee-service/src/main/java/com/way/employeeservice/EmployeeServiceApplication.java" />
-        <option value="$PROJECT_DIR$/employee-service/src/main/java/com/way/employeeservice/service/callback/DepartmentClientCallback.java" />
         <option value="$PROJECT_DIR$/employee-service/src/main/java/com/way/employeeservice/service/EmployeeService.java" />
         <option value="$PROJECT_DIR$/employee-service/src/main/java/com/way/employeeservice/service/impl/EmployeeServiceImpl.java" />
-        <option value="$PROJECT_DIR$/employee-service/src/main/java/com/way/employeeservice/controller/EmployeeController.java" />
+        <option value="$PROJECT_DIR$/employee-service/src/main/java/com/way/employeeservice/controller/vo/InfoVo.java" />
+        <option value="$PROJECT_DIR$/department-service/src/main/java/com/way/departmentservice/controller/vo/InfoVo.java" />
+        <option value="$PROJECT_DIR$/employee-service/src/main/java/com/way/employeeservice/util/NetworkUtil.java" />
+        <option value="$PROJECT_DIR$/department-service/src/main/java/com/way/departmentservice/util/NetworkUtil.java" />
         <option value="$PROJECT_DIR$/department-service/src/main/java/com/way/departmentservice/controller/DepartmentController.java" />
+        <option value="$PROJECT_DIR$/employee-service/src/main/java/com/way/employeeservice/service/client/DepartmentClient.java" />
+        <option value="$PROJECT_DIR$/employee-service/src/main/java/com/way/employeeservice/controller/EmployeeController.java" />
+        <option value="$PROJECT_DIR$/employee-service/src/main/java/com/way/employeeservice/service/callback/DepartmentClientCallback.java" />
         <option value="$PROJECT_DIR$/department-service/pom.xml" />
         <option value="$PROJECT_DIR$/employee-service/pom.xml" />
-        <option value="$PROJECT_DIR$/employee-service/src/main/resources/bootstrap.properties" />
         <option value="$PROJECT_DIR$/department-service/src/main/resources/bootstrap.properties" />
+        <option value="$PROJECT_DIR$/employee-service/src/main/resources/bootstrap.properties" />
       </list>
     </option>
   </component>
@@ -296,8 +378,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="714" />
-    <option name="height" value="900" />
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="877" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -391,6 +474,19 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="way" type="462c0819:PsiDirectoryNode" />
               <item name="departmentservice" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="vo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-alibaba-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-alibaba-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="department-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="way" type="462c0819:PsiDirectoryNode" />
+              <item name="departmentservice" type="462c0819:PsiDirectoryNode" />
               <item name="dao" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -442,6 +538,18 @@
               <item name="departmentservice" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
               <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-alibaba-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-alibaba-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="department-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="way" type="462c0819:PsiDirectoryNode" />
+              <item name="departmentservice" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-cloud-alibaba-demo" type="b2602c69:ProjectViewProjectNode" />
@@ -529,7 +637,8 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="way" type="462c0819:PsiDirectoryNode" />
               <item name="employeeservice" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="vo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-cloud-alibaba-demo" type="b2602c69:ProjectViewProjectNode" />
@@ -541,74 +650,7 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="way" type="462c0819:PsiDirectoryNode" />
               <item name="employeeservice" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-alibaba-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-alibaba-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="employee-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="way" type="462c0819:PsiDirectoryNode" />
-              <item name="employeeservice" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-alibaba-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-alibaba-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="employee-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="way" type="462c0819:PsiDirectoryNode" />
-              <item name="employeeservice" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="callback" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-alibaba-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-alibaba-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="employee-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="way" type="462c0819:PsiDirectoryNode" />
-              <item name="employeeservice" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-alibaba-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-alibaba-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="employee-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="way" type="462c0819:PsiDirectoryNode" />
-              <item name="employeeservice" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="hystrix" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-alibaba-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-alibaba-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="employee-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-alibaba-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-alibaba-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="employee-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-cloud-alibaba-demo" type="b2602c69:ProjectViewProjectNode" />
@@ -733,7 +775,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
-    <property name="MyBatisLogPluginindexNum" value="811" />
+    <property name="MyBatisLogPluginindexNum" value="16" />
     <property name="MyBatisLogPluginparameters" value="Parameters:" />
     <property name="MyBatisLogPluginpreparing" value="Preparing:" />
     <property name="MyBatisLogPluginrunning" value="true" />
@@ -757,26 +799,27 @@
     <selection>jr</selection>
   </component>
   <component name="RecentsManager">
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="com.way.employeeservice" />
-      <recent name="com.way" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/department-service/src/main/resources" />
-      <recent name="$PROJECT_DIR$/employee-service/src/main/resources" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.way.employeeservice.service.callback" />
-      <recent name="com.way.employeeservice.service.param" />
-      <recent name="com.way.employeeservice.service.entity" />
-      <recent name="com.way.departmentservice.controller" />
-      <recent name="com.way.departmentservice.param" />
-    </key>
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.way.employeeservice.controller.vo" />
       <recent name="com.way.employeeservice.param" />
       <recent name="com.way.employeeservice.dto" />
       <recent name="com.way.employeeservice.dao" />
       <recent name="com.way.employeeservice.dao.entity" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.way.employeeservice" />
+      <recent name="com.way" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.way.departmentservice.controller.vo" />
+      <recent name="com.way.employeeservice.util" />
+      <recent name="com.way.employeeservice.service.callback" />
+      <recent name="com.way.employeeservice.service.param" />
+      <recent name="com.way.employeeservice.service.entity" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/department-service/src/main/resources" />
+      <recent name="$PROJECT_DIR$/employee-service/src/main/resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -792,7 +835,7 @@
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.EmployeeServiceApplication">
-    <configuration name="DepartmentServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <configuration name="DepartmentServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false">
       <module name="department-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.way.departmentservice.DepartmentServiceApplication" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -802,7 +845,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EmployeeServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <configuration name="EmployeeServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false">
       <module name="employee-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.way.employeeservice.EmployeeServiceApplication" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -840,7 +883,7 @@
       <workItem from="1596446087991" duration="722000" />
       <workItem from="1596598767998" duration="161000" />
       <workItem from="1596598992966" duration="1022000" />
-      <workItem from="1596605333885" duration="6261000" />
+      <workItem from="1596605333885" duration="11853000" />
     </task>
     <task id="LOCAL-00001" summary="project init">
       <created>1596162798124</created>
@@ -891,11 +934,18 @@
       <option name="project" value="LOCAL" />
       <updated>1596273575918</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="sentinel dashboard 控制台连接">
+      <created>1596615541319</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1596615541319</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49372000" />
+    <option name="totallyTimeSpent" value="54964000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -916,7 +966,7 @@
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.32891566" />
       <window_info anchor="bottom" id="Run" order="3" weight="0.46506023" />
-      <window_info anchor="bottom" id="Debug" order="4" weight="0.66024095" />
+      <window_info active="true" anchor="bottom" id="Debug" order="4" visible="true" weight="0.37228915" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" />
@@ -930,9 +980,10 @@
       <window_info anchor="bottom" id="Database Changes" order="15" />
       <window_info anchor="bottom" id="Version Control" order="16" />
       <window_info anchor="bottom" id="JRebel Executor" order="17" />
-      <window_info anchor="bottom" id="JRebel Console" order="18" side_tool="true" />
+      <window_info anchor="bottom" id="JRebel Console" order="18" sideWeight="0.5007163" side_tool="true" weight="0.4554217" />
       <window_info anchor="bottom" id="Messages" order="19" weight="0.32891566" />
-      <window_info anchor="bottom" id="MyBatis Log" order="20" weight="0.4554217" />
+      <window_info anchor="bottom" id="MyBatis Log" order="20" sideWeight="0.49928367" weight="0.4554217" />
+      <window_info anchor="right" id="Coverage" side_tool="true" weight="0.3295129" />
       <window_info anchor="right" id="SciView" order="0" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
@@ -966,7 +1017,7 @@
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.32891566" />
       <window_info anchor="bottom" id="Run" order="3" weight="0.46506023" />
-      <window_info active="true" anchor="bottom" id="Debug" order="4" visible="true" weight="0.66024095" />
+      <window_info active="true" anchor="bottom" id="Debug" order="4" visible="true" weight="0.40361446" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" />
@@ -980,25 +1031,26 @@
       <window_info anchor="bottom" id="Database Changes" order="15" />
       <window_info anchor="bottom" id="Version Control" order="16" />
       <window_info anchor="bottom" id="JRebel Executor" order="17" />
-      <window_info anchor="bottom" id="JRebel Console" order="18" side_tool="true" />
+      <window_info anchor="bottom" id="JRebel Console" order="18" sideWeight="0.5007163" side_tool="true" weight="0.4554217" />
       <window_info anchor="bottom" id="Messages" order="19" weight="0.32891566" />
-      <window_info anchor="bottom" id="MyBatis Log" order="20" weight="0.4554217" />
-      <window_info anchor="right" id="SciView" order="0" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="4" visible="true" weight="0.3295129" />
-      <window_info anchor="right" id="RestServices" order="5" />
-      <window_info anchor="right" id="Database" order="6" weight="0.22063038" />
-      <window_info anchor="right" id="Capture Analysis" order="7" />
-      <window_info anchor="right" id="Key Promoter X" order="8" />
-      <window_info anchor="right" id="Word Book" order="9" side_tool="true" />
-      <window_info anchor="right" id="Palette" order="10" />
-      <window_info anchor="right" id="leetcode" order="11" side_tool="true" />
-      <window_info anchor="right" id="Palette&#9;" order="12" />
-      <window_info anchor="right" id="Theme Preview" order="13" />
-      <window_info anchor="right" id="Json Parser" order="14" />
-      <window_info anchor="right" id="Bean Validation" order="15" />
+      <window_info anchor="bottom" id="MyBatis Log" order="20" sideWeight="0.49928367" weight="0.4554217" />
+      <window_info anchor="right" id="Coverage" order="0" side_tool="true" weight="0.3295129" />
+      <window_info anchor="right" id="SciView" order="1" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="2" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="5" weight="0.3295129" />
+      <window_info anchor="right" id="RestServices" order="6" />
+      <window_info anchor="right" id="Database" order="7" weight="0.22063038" />
+      <window_info anchor="right" id="Capture Analysis" order="8" />
+      <window_info anchor="right" id="Key Promoter X" order="9" />
+      <window_info anchor="right" id="Word Book" order="10" side_tool="true" />
+      <window_info anchor="right" id="Palette" order="11" />
+      <window_info anchor="right" id="leetcode" order="12" side_tool="true" />
+      <window_info anchor="right" id="Palette&#9;" order="13" />
+      <window_info anchor="right" id="Theme Preview" order="14" />
+      <window_info anchor="right" id="Json Parser" order="15" />
+      <window_info anchor="right" id="Bean Validation" order="16" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1012,29 +1064,17 @@
     <MESSAGE value="feign自带熔断 但是需要配置文件开启" />
     <MESSAGE value="nacos config配置中心" />
     <MESSAGE value="1.feign hystrix熔断  2.hystrix熔断" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.feign hystrix熔断  2.hystrix熔断" />
+    <MESSAGE value="sentinel dashboard 控制台连接" />
+    <option name="LAST_COMMIT_MESSAGE" value="sentinel dashboard 控制台连接" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/spring_cloud_alibaba_demo$DepartmentServiceApplication.ic" NAME="DepartmentServiceApplication Coverage Results" MODIFIED="1596618324022" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/way/employeeservice/dao/EmployeesDao.java" />
-    <entry file="file://$PROJECT_DIR$/student-service/src/main/java/com/way/studentservice/dao/ClassesMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/employee-service/src/main/java/com/way/employeeservice/dao/Employees.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/tk/mybatis/mapper/4.1.5/mapper-4.1.5.jar!/tk/mybatis/mapper/common/Mapper.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/way/employeeservice/dao/Employees.java" />
     <entry file="das://50066af2-cfcf-42ef-b5ad-7d6bbe19c058/schema/employees/table/employees">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
@@ -1215,13 +1255,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/employee-service/src/main/java/com/way/employeeservice/service/hystrix/DepartmentRestHystrixService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="26" column="52" selection-start-line="26" selection-start-column="52" selection-end-line="26" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/department-service/src/main/java/com/way/departmentservice/service/DepartmentService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
@@ -1236,16 +1269,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/employee-service/src/main/java/com/way/employeeservice/service/client/DepartmentClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1282,13 +1305,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/employee-service/src/main/java/com/way/employeeservice/service/callback/DepartmentClientCallback.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
         </state>
       </provider>
     </entry>
@@ -1337,23 +1353,81 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/employee-service/src/main/java/com/way/employeeservice/util/NetworkUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="554">
+          <caret line="78" column="33" selection-end-line="95" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/department-service/src/main/java/com/way/departmentservice/util/NetworkUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/employee-service/src/main/java/com/way/employeeservice/controller/vo/InfoVo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/department-service/src/main/java/com/way/departmentservice/controller/vo/InfoVo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/employee-service/src/main/java/com/way/employeeservice/service/callback/DepartmentClientCallback.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/employee-service/src/main/java/com/way/employeeservice/controller/EmployeeController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="43" column="60" selection-start-line="43" selection-start-column="4" selection-end-line="43" selection-end-column="60" />
+        <state relative-caret-position="341">
+          <caret line="83" column="33" selection-start-line="83" selection-start-column="33" selection-end-line="83" selection-end-column="33" />
           <folding>
+            <element signature="e#1550#1566#1" expanded="true" />
             <element signature="e#1587#1588#0" expanded="true" />
             <element signature="e#1648#1649#0" expanded="true" />
+            <element signature="e#3321#3322#0" expanded="true" />
+            <element signature="e#3339#3340#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/employee-service/src/main/java/com/way/employeeservice/service/hystrix/DepartmentRestHystrixService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="34" column="28" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/employee-service/src/main/java/com/way/employeeservice/service/client/DepartmentClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="20" column="11" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/department-service/src/main/java/com/way/departmentservice/controller/DepartmentController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="21" column="3" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
+        <state relative-caret-position="132">
+          <caret line="6" column="49" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#1244#1260#1" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1361,30 +1435,30 @@
     <entry file="file://$PROJECT_DIR$/department-service/pom.xml">
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="136" column="20" selection-start-line="136" selection-start-column="20" selection-end-line="136" selection-end-column="20" />
+        <state relative-caret-position="180">
+          <caret line="83" column="20" selection-start-line="83" selection-start-column="20" selection-end-line="83" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/employee-service/pom.xml">
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
-          <caret line="132" column="51" lean-forward="true" selection-start-line="132" selection-start-column="51" selection-end-line="132" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/employee-service/src/main/resources/bootstrap.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+        <state relative-caret-position="117">
+          <caret line="64" selection-start-line="64" selection-end-line="64" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/department-service/src/main/resources/bootstrap.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
-          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+          <caret line="1" column="16" lean-forward="true" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/employee-service/src/main/resources/bootstrap.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="52" lean-forward="true" selection-start-line="3" selection-start-column="52" selection-end-line="3" selection-end-column="52" />
         </state>
       </provider>
     </entry>
