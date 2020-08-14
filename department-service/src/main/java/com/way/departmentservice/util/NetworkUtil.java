@@ -1,4 +1,4 @@
-package com.way.employeeservice.util;
+package com.way.departmentservice.util;
 
 import javax.management.MBeanServer;
 import javax.management.ObjectName;

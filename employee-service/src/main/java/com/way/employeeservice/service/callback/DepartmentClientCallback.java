@@ -10,7 +10,7 @@ import org.springframework.stereotype.Component;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 /**
- * @author liangliwei 80551025
+ * @author wayleung 80551025
  * @description
  * @date 2020-07-31
  */

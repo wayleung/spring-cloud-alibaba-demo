@@ -6,7 +6,7 @@ import com.way.departmentservice.dao.entity.Departments;
 import com.way.departmentservice.param.DepartmentByIdParam;
 import com.way.departmentservice.param.PageParam;
 import com.way.departmentservice.service.DepartmentService;
-import com.way.employeeservice.util.NetworkUtil;
+import com.way.departmentservice.util.NetworkUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
@@ -19,7 +19,7 @@ import javax.servlet.http.HttpServletRequest;
 import java.util.List;
 
 /**
- * @author liangliwei 80551025
+ * @author wayleung 80551025
  * @description
  * @date 2020-07-31
  */
