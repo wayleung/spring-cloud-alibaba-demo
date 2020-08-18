@@ -7,6 +7,9 @@ import com.way.departmentservice.param.DepartmentByIdParam;
 import com.way.departmentservice.param.PageParam;
 import com.way.departmentservice.service.DepartmentService;
 import com.way.departmentservice.util.NetworkUtil;
+import lombok.extern.slf4j.Slf4j;
+import org.redisson.api.RLock;
+import org.redisson.api.RedissonClient;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
@@ -17,6 +20,7 @@ import tk.mybatis.spring.annotation.MapperScan;
 
 import javax.servlet.http.HttpServletRequest;
 import java.util.List;
+import java.util.concurrent.TimeUnit;
 
 /**
  * @author wayleung 80551025
@@ -27,6 +31,7 @@ import java.util.List;
 @RequestMapping("/department-msc")
 @MapperScan("com.way.departmentservice.dao")
 @EnableDiscoveryClient
+@Slf4j
 public class DepartmentController {
 
     @Value("${server.port}")
@@ -34,6 +39,9 @@ public class DepartmentController {
 
     @Autowired
     private DepartmentService departmentService;
+
+    @Autowired
+    private RedissonClient redissonClient;
 
     @RequestMapping("/getAllDepartments")
     @SentinelResource(value = "department-msc/getAllDepartments")
@@ -56,5 +64,14 @@ public class DepartmentController {
         return vo;
     }
 
+    @RequestMapping("/getLock")
+    @SentinelResource(value = "department-msc/getLock")
+    public void getLock() {
+        RLock lock = redissonClient.getLock("myLock");
+        lock.lock(10, TimeUnit.SECONDS);
+        log.info("lock");
+//        lock.unlock();
+//        log.info("unlock");
+    }
 
 }
